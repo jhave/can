@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #ffff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #fff3cd;
   text-decoration: underline;
 }
 
@@ -6067,7 +6067,11 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #000 !important;
+}
+
+.bg-card {
+  background-color: #000 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9959,7 +9963,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #333436;
 }
 
 hr.light {
@@ -10048,7 +10052,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/embdied-disembodied.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10115,4 +10119,80 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+.text-white-100 {
+  color: rgba(255, 255, 255, 1.0);
+}
+
+
+
+/* Header Parallax Element Style*/
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+
+/* Image for Parallax Section */
+.paralsecJarry {
+background-image: url("../assets/img/bg/jarry.jpg");
+}
+
+.paralsecPigeon {
+background-image: url("../assets/img/bg/pigeon.jpg");}
+
+.paralsecCloud {
+background-image: url("../assets/img/bg/cloud.jpg");
+}
+
+.paralsecPollen {
+background-image: url("../assets/img/bg/pollen.jpg");
+}
+
+
+.paralsecSkyhole {
+background-image: url("../assets/img/bg/skyhole.jpg");
+}
+
+
+.paralsecBud {
+background-image: url("../assets/img/bg/bud.jpg");
+}
+
+.paralsecCrete {
+background-image: url("../assets/img/bg/crete.jpg");
+}
+
+.paralsecForest {
+background-image: url("../assets/img/bg/forest.jpg");
+}
+
+
+.paralsecWillows {
+background-image: url("../assets/img/bg/willows.jpg");
+}
+
+
+.paralsecRot {
+background-image: url("../assets/img/bg/rot.png");
+}
+
+
+.paralsecZip {
+background-image: url("../assets/img/bg/zip.jpg");
+}
+/* Add more images for more sections */
+
+
+
+.special-card {
+/* create a custom class so you
+   do not run into specificity issues
+   against bootstraps styles
+   which tends to work better than using !important
+   (future you will thank you later)*/
+
+  background-color: rgba(255, 157, 66, 0.55);
 }
