@@ -10186,6 +10186,28 @@ background-image: url("../assets/img/bg/zip.jpg");
 /* Add more images for more sections */
 
 
+.paralsecDenbigh {
+background-image: url("../assets/img/bg/denbigh-ice.jpg");
+}
+
+
+.paralsecAcorn {
+background-image: url("../assets/img/bg/acornSnow.jpg");
+}
+
+
+
+.paralsecForestRoad {
+background-image: url("../assets/img/bg/forestRoad.jpg");
+}
+
+
+.paralsecTreeSky{
+background-image: url("../assets/img/bg/treesky.jpg");
+}
+/* Add more images for more sections */
+
+
 
 .special-card {
 /* create a custom class so you
@@ -10194,5 +10216,5 @@ background-image: url("../assets/img/bg/zip.jpg");
    which tends to work better than using !important
    (future you will thank you later)*/
 
-  background-color: rgba(255, 157, 66, 0.55);
+  background-color: rgba(255, 255, 255, 0.15);
 }
