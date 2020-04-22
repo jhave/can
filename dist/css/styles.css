@@ -10224,6 +10224,29 @@ background-image: url("../assets/img/bg/HCI-Acronyms.gif");
 /* Add more images for more sections */
 
 
+.paralsecBurrs{
+background-image: url("../assets/img/bg/burrs.jpg");
+}
+/* Add more images for more sections */
+
+
+.paralsecRedSprout{
+background-image: url("../assets/img/bg/redsprout.jpg");
+}
+/* Add more images for more sections */
+
+.paralsecChaff{
+background-image: url("../assets/img/bg/chaff.jpg");
+}
+/* Add more images for more sections */
+
+
+.paralsecCircNest{
+background-image: url("../assets/img/bg/circNest.png");
+}
+/* Add more images for more sections */
+
+
 
 .special-card {
 /* create a custom class so you
