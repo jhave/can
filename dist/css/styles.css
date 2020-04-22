@@ -10128,7 +10128,7 @@ header.masthead h1 {
 
 /* Header Parallax Element Style*/
 .paral {
-min-height: 600px;
+min-height: 500px;
 background-attachment: fixed;
 background-size: cover;
 background-position: 50% 50%;
@@ -10204,6 +10204,22 @@ background-image: url("../assets/img/bg/forestRoad.jpg");
 
 .paralsecTreeSky{
 background-image: url("../assets/img/bg/treesky.jpg");
+}
+
+
+.paralsecSynthGlove{
+background-image: url("../assets/img/bg/synthGlove.jpg");
+}
+
+
+.paralsecGridWheat{
+background-image: url("../assets/img/bg/gridWheat.jpg");
+}
+
+
+
+.paralsecHCI{
+background-image: url("../assets/img/bg/HCI-Acronyms.gif");
 }
 /* Add more images for more sections */
 
