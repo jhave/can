@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #fff3cd;
+  color: #faf8f6;
   text-decoration: underline;
 }
 
@@ -10061,6 +10061,21 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+
+header.masthead2 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url("../assets/img/mouse-arp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead2 h1 {
+  font-size: 2.25rem;
+}
+
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10124,7 +10139,9 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 1.0);
 }
 
-
+.text-black-100 {
+  color: rgba(0, 0, 0, .75);
+}
 
 /* Header Parallax Element Style*/
 .paral {
@@ -10246,6 +10263,49 @@ background-image: url("../assets/img/bg/circNest.png");
 }
 /* Add more images for more sections */
 
+.paralsecSunset{
+background-image: url("../assets/img/bg/sunset.jpg");
+}
+/* Add more images for more sections */
+
+.paralsecFragile{
+background-image: url("../assets/img/bg/fragile.jpg");
+}
+/* Add more images for more sections */
+
+.paralsecInfini{
+background-image: url("../assets/img/bg/infini.jpg");
+}
+
+.paralsecCarrots{
+background-image: url("../assets/img/bg/carrots.jpg");
+}
+
+.paralsecPocket{
+background-image: url("../assets/img/bg/pocket.jpg");
+}
+
+.paralsecFirePepper{
+background-image: url("../assets/img/bg/firePepper.jpg");
+}
+.paralsecIceCrenul{
+background-image: url("../assets/img/bg/iceCrenul.jpg");
+}
+.paralsecIceOnIce{
+background-image: url("../assets/img/bg/iceOnIce.jpg");
+}
+.paralsecBranchOnIce{
+background-image: url("../assets/img/bg/branchOnIce.jpg");
+}
+
+
+.paralsecSheepBrain{
+background-image: url("../assets/img/bg/SheepBrain.jpg");
+}
+
+
+slide3_54_orig-SheepBrain.png
+
 
 
 .special-card {
@@ -10256,4 +10316,26 @@ background-image: url("../assets/img/bg/circNest.png");
    (future you will thank you later)*/
 
   background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.embed-container {
+  --video--width: 1920;
+  --video--height: 1080;
+
+  position: relative;
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+  overflow: hidden;
+  max-width: 100%;
+  background: black;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
